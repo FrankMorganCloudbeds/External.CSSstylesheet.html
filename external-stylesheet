@@ -1,0 +1,55 @@
+body /* Why does Udemy stick "html" at the top? Selector = body, property = background, value = color 
+| ../ = parent folder*/
+    {
+        background: linear-gradient(90deg, rgba(236,248,251,1) 50%, rgba(51,102,255,1) 100%);
+        font-family: Arial, sans-serif;
+    }
+    .container {
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(29,85,204,1);
+        }
+
+h2
+    {
+        font-size: 16px;
+        color: rgba(0,18,56,1);
+    }
+
+li:nth-child(odd)::marker /*psuedo-element: browser-created. Syntax = Tag (li), selector modifier (:nth-child(odd), pseudo-element (::marker) */
+    
+    {
+        content: url(https://cdn-images-1.medium.com/max/800/1*jE5P6wpMVYdhBk23iGsd0w.gif) ;
+        /* content: "Frank" */
+    }
+
+li:nth-child(even)::marker
+
+    {
+        content: url(https://cdn-images-1.medium.com/max/800/1*6usI3XssIMeblrJMo6y_0w.gif);
+    }
+
+header
+
+    {
+        text-align: center;
+        padding: 20px 0;
+        height: 250px ;
+        border-radius: 8px 8px 0 0;
+        background-color: #4CAF50; /* Fallback color if the background image doesn't load */
+        background-image: url('https://cdn-images-1.medium.com/max/800/1*qbgCjz-feJww26FBZAoMrA.png');
+        background-size: cover; /* Cover the entire header */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Prevent the image from repeating */
+        display: flex; /*new to css3 */
+        align-items: end;
+    }
+
+
+#FrankLI
+
+    {
+        color: red; /*this is an ID attribute */
+    }
