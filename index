@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Announcement_Exercise_1.0</title>
+    <link rel="stylesheet" href="./Announcement_styles.css">
+</head>
+<body>
+    <header>
+        <div>
+            <p>Senior Front End Software Engineer - </p>
+            <p>Distribution (Remote) - Canada</p>
+        </div>
+    </header>
+    <p>
+        As a Senior Front-end Engineer, you will develop new architectures, features, and best practices, as well as aid the application's front-end transformation to react. You will contribute to and support our vision of a Service Oriented Architecture (SOA) by engineering frontend components and services. As a Senior Front-end Engineer, your goal is to deliver an exceptional experience to our customers all around the world.
+    </p>
+    <div class="container">
+        <main>
+            <h2>
+                You’ll Succeed With:
+            </h2>
+            <ul>
+                <li>
+                    5+ years of web application development experience.
+                </li>
+                <li>
+                    A good product sense and the ability to empathize with our customers.
+                </li>
+                <li>
+                    Strong knowledge of JS frameworks, React are preferred.
+                </li>
+                <li>
+                    Strong knowledge of modern Javascript and Typescript design patterns, best practices and technologies.
+                </li>
+                <li>
+                    Strong knowledge of HTML and CSS concepts
+                </li>
+                <li>
+                    Experience with API-driven design and development.
+                </li>
+                <li>
+                    Strong teamwork, leadership, and time-management skills.
+                </li>
+                <li>
+                    Experience with test-driven development.
+                </li>
+                <li>
+                    Excellent problem-solving and debugging skills.
+                </li>
+                <li>
+                    Passionate about agile practices and continuous improvement.
+                </li>
+                <li>
+                    Business-level English fluency is required (verbal and written skills).
+                </li>
+            </ul>
+        </main>
+    </div>
+    <img src="https://cdn-images-1.medium.com/max/800/0*oh0jWGMQ2ibApoXC.jpg" alt="image">
+</body>
+</html>
